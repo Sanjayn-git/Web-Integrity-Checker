@@ -15,21 +15,21 @@ Tech Stack
 - JSON Reporting  
 
 ├── tests/                     # Test specifications
-│   ├── check-link.spec.ts         # Unit tests for broken link detection
-│   ├── accessibility.spec.ts      # Unit tests for accessibility checks
-│   └── crawl-sitemap.spec.ts      # Unit tests for multi-page crawling
+│ check-link.spec.ts         # Unit tests for broken link detection
+│ accessibility.spec.ts      # Unit tests for accessibility checks
+│ crawl-sitemap.spec.ts      # Unit tests for multi-page crawling
 
 ├── helpers/                      # Core helper modules
-│   ├── crawler.ts                # Handles page crawling logic
-│   ├── accessibility.ts          # Performs accessibility validations
-│   └── reporter.ts                          # Generates machine-readable reports
+│ crawler.ts                # Handles page crawling logic
+│ accessibility.ts          # Performs accessibility validations
+│ reporter.ts               # Generates machine-readable reports
 
 ├── reports/                     # Generated output reports
-│   ├── links-broken.json             # Report of detected broken links
-│   └── accessibility-report.json     # Report of accessibility findings
-│   ├── links-valid.json              # Report of valid links
-│   └── accessibility-error.json      # Report of unaccessible findings
-│   └── crawling-report.json          # Report of crawling findings
+│ links-broken.json             # Report of detected broken links
+│ accessibility-report.json     # Report of accessibility findings
+│ links-valid.json              # Report of valid links
+│ accessibility-error.json      # Report of unaccessible findings
+│ crawling-report.json          # Report of crawling findings
 
 npm install
 npx playwright install
