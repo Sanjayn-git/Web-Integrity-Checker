@@ -31,10 +31,10 @@ Tech Stack
 │ accessibility-error.json      # Report of unaccessible findings
 │ crawling-report.json          # Report of crawling findings
 
-npm install
-npx playwright install
-npx playwright test
-npx playwright test --last-failed
+1.npm install
+2.npx playwright install
+3.npx playwright test
+4.npx playwright test --last-failed
 
 
 
