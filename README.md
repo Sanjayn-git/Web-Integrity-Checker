@@ -34,8 +34,9 @@ Tech Stack
 steps
 - npm install
 - npx playwright install
-- npx playwright test
-- npx playwright test --last-failed
+- npx playwright test 
+- npx playwright test --last-failed 
+
 
 
 
